@@ -97,3 +97,11 @@ function egal(){
 	var result = eval(valeur);
 	document.getElementById("resultat").value = result;
 }
+
+
+
+
+
+
+
+//ok
