@@ -128,7 +128,7 @@ function moins() {
  }
 
 
-/*
+
  function clear() {
    var valeur= document.getElementById("resultat").value;
    var longueur= valeur.length;
@@ -137,4 +137,4 @@ function moins() {
      valeur = valeur.substring(0, fin);
      document.getElementById("resultat").value = valeur;
    }
- }*/
+ }
