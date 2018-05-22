@@ -1,47 +1,64 @@
-body{
+#cadre {
+  display: flex;
+  border: 2px;
+  border-color: black;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+  height: 200px;
+  justify-content: space-around;
+}
+
+h1 {
+  color: #AA3939;
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
 
 }
 
-.calculatrice input{
-  width: 88%;
-  height: 60px;
-  margin-left: 5%;
-  margin-top: 8%;
-  margin-bottom: 10%;
+#resulat {
+  display: table-cell;
+  border: 1px;
+  color: black;
+  position: fixed;
+  disabled: disabled;
+  width: 300px;
+  height: 200px;
+
 }
 
-.calculatrice{
-  background-color: black;
-  margin-left: 38%;
-  margin-right: 38%;
+.ligne1 {
+  display: flex;
+  flex-direction: row;
+
+}
+.touche {
+background: #772424;
+color: white;
+cursor: pointer;
+}
+.touche:hover {
+  background: #C63E3E;
 }
 
-button{
-  width: 70px;
-  height: 75px;
-  margin-top: 10px;
-  margin-right: 15px;
-  margin-left: 5px;
+
+.ligne2 {
+  display: flex;
+  flex-direction: row;
 }
 
-.ligne1{
-  margin-left: 18px;
+.ligne3 {
+  display: flex;
+  flex-direction: row;
 }
 
-/* .ligne1 input{
-  height: 75px;
-  width: 70px;
-} */
-
-.ligne2{
-  margin-left: 18px;
+.ligne4 {
+  display: flex;
+  flex-direction: row;
 }
 
-.ligne3{
-  margin-left: 18px;
-}
-
-.ligne4{
-  margin-left: 18px;
-  padding-bottom: 8%;
+.ligne5 {
+  display: flex;
+  flex-direction: row;
 }
