@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Comptes le nombre de voyelles</title>
+
+</head>
+
+
+<body>
+
+
+    <script>
+        var vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];
+        var nb = 0;
+        function vowel_count(string)
+            { 
+                var text = string.split(""); 
+                for(var i=0; i<string.length; i++)
+                    { 
+                        for(var v=0; v<10; v++)
+                        {
+                            if(text[i] == vowels[v])
+                                {
+                                    nb++;
+                                }
+                        }
+                    }
+                alert(nb);
+            }
+      vowel_count("aeiouAEOU");
+    </script>
+</body>
+
+</html>
