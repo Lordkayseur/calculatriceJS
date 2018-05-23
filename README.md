@@ -8,7 +8,7 @@ lien en prod reverse          : https://rawgit.com/Lordkayseur/calculatriceJS/ma
 
 lien en prod nbr de voyelles  : https://rawgit.com/Lordkayseur/calculatriceJS/edit/master/vowelcount.html
 
-lien en prod nbr max          : https://rawgit.com/Lordkayseur/calculatriceJS/master/max.html
+lien en prod nbr max          : https://rawgit.com/Lordkayseur/calculatriceJS/master/mymax.html
 
 
 lien en prod calculatrice     : https://rawgit.com/Lordkayseur/calculatriceJS/master/index.html
